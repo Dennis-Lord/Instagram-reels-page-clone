@@ -1,0 +1,107 @@
+.video__footer {
+  position: absolute;
+  bottom: 24px;
+  width: 100%;
+  padding-left: 5px;
+}
+
+.footer__txt {
+  display: flex;
+  color: white;
+  align-items: center;
+  margin-bottom: 8px;
+}
+
+.footer__txt > .avatar {
+  height: 24px;
+  width: 24px;
+}
+
+.footer__txt > h3 {
+  margin-left: 10px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  font-weight: 500;
+  font-size: 14px;
+}
+
+.footer__txt > h3 > button {
+  color: white;
+  text-transform: inherit;
+  border: 1px solid white;
+  margin-left: 6px;
+  height: 22px;
+}
+
+.footer__txt > h3 > li {
+  margin-left: 4px;
+  width: 6px;
+  padding-bottom: 3px;
+}
+
+.footer__container {
+  display: flex;
+  flex-direction: row;
+  font-size: 14px;
+  color: white;
+  margin-left: 6px;
+}
+
+.footer__container > li {
+  margin-left: 8px;
+  margin-right: 6px;
+  width: 6px;
+  padding-bottom: 3px;
+}
+
+.footer__ticker {
+  width: 10vw;
+  display: flex;
+  overflow: hidden;
+  font-size: 14px;
+  color: white;
+}
+
+.footer__ticker > .ticker {
+  width: 20vw;
+  max-height: 16px;
+  margin-left: 6px;
+}
+
+.footer__ticker > .ticker > .ticker__element {
+  width: 20vw;
+}
+
+.footer__actions {
+  width: 40px;
+  height: 180px;
+  position: absolute;
+  right: 6px;
+  bottom: 8px;
+  flex-direction: column;
+  color: white;
+}
+
+.footer__stat {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  cursor: pointer;
+}
+
+.footer__stat > .MuiSvgIcon-root {
+  margin: 4px 12px;
+}
+.footer__actions > .MuiSvgIcon-root {
+  margin: 4px 12px;
+  
+}
+
+.s {
+  cursor: pointer;
+}
+
+.m > path {
+  transform: rotate(90deg) translateY(-25px);
+}

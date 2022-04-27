@@ -1,0 +1,28 @@
+.video__header {
+    display: flex;
+    width: 100%;
+    height: 18px;
+    justify-content: space-between;
+    align-items: center;
+    position: absolute;
+    margin-top: 4px;
+    padding-left: 14px;
+    padding-right: 18px;
+    color: white;
+    
+}
+
+.c {
+    cursor: pointer;
+}
+
+.video__header > * {
+    margin-top: 26px;
+    z-index: 1;
+}
+
+.video__header > h3 {
+    position: absolute;
+    left: 52px;
+    font-weight: 500;
+}

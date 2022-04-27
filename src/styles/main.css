@@ -1,0 +1,171 @@
+* {
+  box-sizing: border-box;
+  scroll-snap-type: y mandatory;
+  scroll-snap-align: start;
+}
+
+.main__c {
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+}
+
+.bg__c01 {
+  width: 100%;
+  flex-shrink: 1;
+  min-height: 100%;
+}
+
+.bg__c {
+  min-width: 34vw;
+  min-height: 100%;
+  background-color: rgb(255, 206, 146);
+  position: relative;
+}
+
+.bg__c2 {
+  height: 100%;
+  width: 100%;
+}
+
+.bg__i {
+  height: 100vh;
+  max-width: none;
+  object-fit: fill;
+  object-position: center;
+  width: 100%;
+}
+
+.bg__color {
+  min-width: 64vw;
+  min-height: 100%;
+}
+
+.bg__c3 {
+  height: 100%;
+  min-width: 100%;
+  z-index: -1;
+  overflow: hidden;
+  position: relative;
+}
+
+.bg__c4 {
+  background-image: linear-gradient(135deg, #fff8d9, #ff8f8f);
+}
+
+.bg__c5 {
+  animation: rotateGradient 6s infinite;
+  width: 100%;
+  height: 100%;
+  transform-origin: center center;
+  position: absolute;
+}
+
+/* tranform the div 90 degrees right forwad and 90 degress backwards*/
+@keyframes rotateGradient {
+  0% {
+    transform: rotate(0deg);
+  }
+  50% {
+    transform: rotate(90deg);
+  }
+  100% {
+    transform: rotate(0deg);
+  }
+}
+
+.bg__c6 {
+  background-image: linear-gradient(
+    135deg,
+    rgb(255, 248, 217) 25%,
+    rgb(255, 143, 143) 75%
+  );
+  transform: scale(1.08097, 2.63342);
+  height: 100%;
+  left: 0;
+  position: absolute;
+  top: 0;
+  transform-origin: center center;
+  width: 100%;
+}
+
+.txt__c {
+  width: 100%;
+  height: 100%;
+}
+
+.txt__c1 {
+  position: relative;
+  height: 100%;
+  padding-right: 7vw;
+  padding-left: 7vw;
+}
+
+.txt__c2 {
+  height: 100%;
+  width: 100%;
+}
+
+.txt__c3 {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+.txt__cc {
+  max-width: 570px;
+  width: 35vw;
+}
+
+.cc__ {
+  width: 100%;
+}
+
+.reels__txt {
+  align-items: center;
+  display: flex;
+  font-family: Aveny T, Franklin Gothic, Helvetica Neue, Helvetica, Arial,
+    sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  letter-spacing: 0.8px;
+  font-stretch: condensed;
+  line-height: 24px;
+  margin: 0;
+  padding-left: 2px;
+  width: 100%;
+}
+
+.reels__txt1 {
+  margin-top: 16px;
+  font-family: Franklin Gothic, Helvetica Neue, Helvetica, Arial, sans-serif;
+  font-weight: 400;
+  width: 100%;
+  font-size: calc(44px + (16 * ((100vw - 375px) / 1225)));
+  letter-spacing: -1px;
+  line-height: calc(56px + (8 * ((100vw - 375px) / 1225)));
+}
+
+.side__c {
+  width: 100%;
+  height: 450px;
+  opacity: 1;
+  position: fixed;
+  top: 138px;
+  padding-left: 10vw;
+}
+
+.side__bar {
+  background-color: tomato;
+  width: 60px;
+  height: 100%;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  z-index: 1;
+}
